@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<nav class="navbar">
+    <div id="icon"><i class="fa-solid fa-headphones"></i><h3>AudioPhile</h3></div>
+    <div class="items" style="position: relative;">
+        <div id="searches">
+        <i class="fa-solid fa-magnifying-glass" style="position: absolute; left: 935px; top: 50%; transform: translateY(-50%);"></i>
+        <input id="search" placeholder="Search" style="padding-left: 30px; color: aliceblue;"></div>
+        <a href="bookmark.html"><i id="bookmark" class="fa-solid fa-book-bookmark"></i></a>
+        <a href="cart.html"><i id="cart" class="fa-solid fa-cart-shopping"></i></a>
+        <div id="user"><i class="fa-solid fa-user"></i></div>
+    </div>
+</nav>
+<div id="popupForm" class="popup" >
+    <div class="popup-content" >
+        <span class="close" style="background-color: #fefefe;">&times;</span>
+        <h2 style="background-color: #fefefe; color: rgb(245, 171, 82);">Add User</h2>
+        <form id="memoryForm" style="background-color: #fefefe; color: black;">
+            <label for="text" style="background-color: #fefefe; color: black;">Select UserName:</label>
+            <input type="text" id="name" name="image" accept="text" required><br><br>
+            <label for="caption" style="background-color: #fefefe; color: black;">Email Id:</label>
+            <input type="text" id="caption" name="caption" required><br><br>
+            <button type="submit" style="background-color: #fefefe; color: black;" id="submit">Submit</button>
+        </form>
+    </div>
+</div>
+<main>
+    <div class="girl">
+        <div class="girl_items"><h1>Listen free for 7 days</h1><p><br>Get any audiobook and podcast on Audiophile.Cancel anytime.</p>
+            <a href="subscription.html" style="text-decoration: none;"><button>start free trial</button></a></div>
+    </div>
+
+</main>
+<section>
+    <div class="gallery">
+        <h2 id="Memories">Features</h>
+        <div>
+            <figure>
+                <a href="https://archive.org/details/atomic-habits-pdfdrive/page/n3/mode/2up"><img src="atomhabits.jpg" alt=""></a>
+                <figcaption>Atomic Habits<p>James Clear</p></figcaption>
+            </figure>
+            <figure>
+                <a href="https://archive.org/details/the48lawsofpowerpdfdrive.com"><img src="power.jpeg" alt=""></a>
+                <figcaption>40 laws of power <p>Robert Greene</p></figcaption>
+            </figure>
+            <figure>
+                <a href="https://booksinsta.com/it-ends-with-us-by-colleen-hoover-free-download/"><img src="itends.jpeg" alt=""></a>
+                <figcaption>It ends with us <p>Colleen Hoover</p></figcaption>
+            </figure>
+            <figure>
+                <a href="https://archive.org/details/RichDadPoorDadEBook_201803"><img src="richdad.jpg" alt=""></a>
+                <figcaption>Rich Dad Poor Dad <p>Robert Kiyosaki</p></figcaption>
+            </figure>
+            <figure>
+                <a href="https://books.google.co.in/books?id=sqYsEAAAQBAJ&printsec=frontcover&source=gbs_atb&redir_esc=y#v=onepage&q&f=false"><img src="toldme.jpeg" alt=""></a>
+                <figcaption>The last Thing he told me <p>Laura Dave</p></figcaption>
+            </figure>
+            <figure>
+                <a href="https://archive.org/details/RichDadPoorDadEBook_201803"><img src="richdad.jpg" alt=""></a>
+                <figcaption>Rich Dad Poor Dad <p>Robert Kiyosaki</p></figcaption>
+            </figure>
+            <figure>
+                <a href="https://www.readanybook.online/ebook/dreamland-765611"><img src="nicholas.jpg" alt=""></a>
+                <figcaption>Dream Land <p>Nicholas Spark</p></figcaption>
+            </figure>
+            <figure>
+                <a href="https://archive.org/details/atomic-habits-pdfdrive/page/n3/mode/2up"><img src="atomhabits.jpg" alt=""></a>
+                <figcaption>Atomic Habits<p>James Clear</p></figcaption>
+            </figure>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="bottom">
+        <h4>About</h4>
+        <h4>Newsroom</h4>
+        <h4>Contact us</h4>
+        <h4>Privacy Policy</h4>
+        <h4>Terms of Use</h4>
+    </div>
+</footer>
+<h4 id="copyright"><i class="fa-regular fa-copyright"></i>Audiophile</h4>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+*{
+    background-color: black;
+    color: aliceblue;
+}
+a{
+    text-decoration:none;
+    
+}
+
+
+.navbar{
+    border-bottom:2px solid bisque;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+#icon{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.items{
+    width: 1300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.items i{
+
+    margin-left: 20px;
+    /* height: 35px;
+    width: 35px; */
+    border: 8px solid rgb(55, 53, 53) ;
+    background-color: rgb(55, 53, 53);
+    border-radius: 50%;
+    
+}
+#searches i{
+    background: none;
+    border: 0px;
+}
+#search{
+    background-color: rgb(55, 53, 53);
+    height: 25px;
+    border-radius: 8px;
+    color: rgb(124, 127, 130);
+
+}
+.playlist{
+    margin-left: 70px;
+    height:400px ;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.playlist img{
+    height: 70px;
+    width: 70px;
+    margin-right: 30px;
+    border-radius: 5px;
+
+}
+.playlist .play{
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: rgba(49, 47, 47, 0.29);
+    margin: 10px;
+}
+.playlist h3 p{
+font-size: small;
+opacity: 0.7;
+background-color: rgba(49, 47, 47, 0.004);
+}
+.play h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(49, 47, 47, 0);
+}
+.player{  
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* background-color: rgba(49, 47, 47, 0.29); */
+    margin: 10px;
+}
+.player img{
+    height: 70px;
+    width: 70px;
+    margin-right: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+
+}
+.player #controller{
+    height: 140px;
+    width: 1000px;
+    padding: 15px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: rgba(88, 75, 75, 0.29);
+    margin: 20px;
+    margin-left: 70px;
+}
+.player h3 p{
+font-size: small;
+opacity: 0.7;
+background-color: rgba(49, 47, 47, 0.004);
+}
+.player h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(49, 47, 47, 0);
+}
+.player audio{
+    background-color: rgb(42, 39, 39);
+    position: relative;
+    top: 0px;
+    left: 30px;
+    display: inline-block;
+    width: 900px;
+}

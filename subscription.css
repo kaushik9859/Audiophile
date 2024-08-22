@@ -1,0 +1,114 @@
+*{
+    background-color: black;
+    color: aliceblue;
+}
+.navbar{
+    border-bottom:2px solid bisque;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+#icon{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.items{
+    width: 1300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.items i{
+
+    margin-left: 20px;
+    /* height: 35px;
+    width: 35px; */
+    border: 8px solid rgb(55, 53, 53) ;
+    background-color: rgb(55, 53, 53);
+    border-radius: 50%;
+    
+}
+#searches i{
+    background: none;
+    border: 0px;
+}
+#search{
+    background-color: rgb(55, 53, 53);
+    height: 25px;
+    border-radius: 8px;
+    color: rgb(124, 127, 130);
+
+}
+#head{
+    margin-left: 190px;
+    background-color: black;
+}
+p{
+    margin-left: 190px;
+    color: rgb(103, 110, 110);
+}
+.cards{
+    margin-left: 190px;
+    margin-top: 50px;
+    width: 930px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.premium{
+    background-color: rgb(33, 34, 36);
+    padding: 30px;
+    border-radius: 15px ;
+}
+.premium h3,h1,ul,li{
+    background-color: rgb(33, 34, 36);
+}
+.premium button{
+    background-color: rgb(9, 127, 196);
+    height: 28px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px solid rgba(9, 128, 196, 0.659);
+    transition: all ease;
+}
+.premium button:hover{
+    background-color: rgb(150, 198, 226);
+    height: 30px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px solid rgba(9, 128, 196, 0.659);
+}
+ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✓';
+  }
+  .bottom{
+    margin-left: 210px;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width:1200px;
+    height: 0px;
+    margin-bottom: 150px;
+}
+.bottom h4{
+    height: 0px;
+    width: 400px;
+    color: rgb(127, 132, 136);
+    font-size: large;
+    
+}
+#copyright{
+    margin-left: 620px;
+    color: rgb(127, 132, 136);
+    font-size: large;
+    display: flex;
+    width: 115px;
+    justify-content: space-between;
+
+}
